@@ -13,7 +13,6 @@ Trabalho com Python/Django no core, Next.js no frontend e Salesforce para opera�
 - **Observabilidade:** Sentry • healthchecks • métricas custom
 - **Cloud/DevOps:** Docker • Vercel • GitHub Actions
 - **Salesforce:** Apex • LWC • Flow Builder • Metadata API
-- **Fiscais/Telecom:** NFSe/NFCom (ABRASF 2.01, SOAP/ass. digital) • ACS/SmartOLT
 
 ## 🏗️ Padrões & práticas
 - **DDD leve**, **boundary contexts**, **service layer** e **adapters** para integrações
@@ -42,4 +41,3 @@ Trabalho com Python/Django no core, Next.js no frontend e Salesforce para opera�
 ## 📫 Contato
 - Site: https://talktome.com.br  
 - E-mail: rafaelexplorernetbsb@gmail.com  
-- LinkedIn: *seu_link_aqui*
