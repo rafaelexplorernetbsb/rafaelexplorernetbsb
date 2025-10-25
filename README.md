@@ -1,31 +1,45 @@
-<!-- Banner opcional: coloque uma imagem larga aqui -->
+<h1 align="left">Rafael — Tech Stack & Architecture</h1>
 
-<h1 align="left">Fala, eu sou o Rafael 👋</h1>
+Profissional de software focado em **backends escaláveis**, **workflows** e **integrações empresariais**.
+Trabalho com Python/Django no core, Next.js no frontend e Salesforce para operações.
 
-Sou engenheiro de software focado em **CRMs modulares**, **assistentes de IA para atendimento/retensão** e **integrações Salesforce**.
-Gosto de transformar processos complexos em produtos simples e mensuráveis.
+---
 
-### 🔧 Stack & interesses
-- **Backend:** Django + Django-Ninja, Celery, Redis, RabbitMQ, PostgreSQL
-- **Frontend:** Next.js (React/TS), Tailwind, shadcn/ui, React Hook Form, Zod
-- **Infra & dados:** Docker, Sentry, n8n, MinIO, RabbitMQ, SmartOLT/ACS
-- **Salesforce:** Apex, Flows, LWC, integrações NFSe/NFCom
-- **IA & automação:** agentes de retenção, negociação de débitos, pipelines de voz
+## 🧩 Core Stack (prod)
+- **Backend:** Python 3.x • Django + Django-Ninja • Celery • Pydantic • Poetry
+- **Frontend:** Next.js (React/TypeScript) • Tailwind • shadcn/ui • React Hook Form • Zod
+- **Data & Cache:** PostgreSQL • Redis
+- **Mensageria/Jobs:** RabbitMQ • Celery Beat • n8n (integrações)
+- **Observabilidade:** Sentry • healthchecks • métricas custom
+- **Cloud/DevOps:** Docker • Vercel • GitHub Actions
+- **Salesforce:** Apex • LWC • Flow Builder • Metadata API
+- **Fiscais/Telecom:** NFSe/NFCom (ABRASF 2.01, SOAP/ass. digital) • ACS/SmartOLT
 
-### 🚀 Projetos em destaque
-- **TalkToMe (CRM Modular + Workflows)** — editor visual de fluxos (React Flow), automações e multi-tenant.  
-- **Integra Notas** — integração NFSe/NFCom (ABRASF 2.01), SOAP/ass. digital e geração de PDFs.  
-- **Explorernet Retention AI** — agente de WhatsApp focado em retenção, negociação e antifraude.  
-- **News Portal** — portal em TypeScript com pipelines de conteúdo (Directus/RSS) e deploy automatizado.
+## 🏗️ Padrões & práticas
+- **DDD leve**, **boundary contexts**, **service layer** e **adapters** para integrações
+- **Conventional Commits** + semver • CI/CD com lint/test/build
+- **12-factor** • configs por ambiente • secrets seguros
+- **Idempotência** em rotinas de cobrança e emissão fiscal
+- **Métricas de produto** antes de escalar features
 
-> Demos e docs: veja os repositórios fixados abaixo 👇
+## 🔌 Integrações recorrentes
+- WhatsApp Business (360dialog) • Gateways de NFSe/NFCom • Salesforce (REST/SOAP)
+- Directus/RSS • MinIO/S3 • SmartOLT/ACS
 
-### 📈 Como trabalho
-- Domínio do problema > solução técnica
-- Observabilidade e métricas antes de escalar
-- Releases pequenos, **conventional commits**, testes e automações
+## 📚 Exemplos de projetos (repos pinados)
+- `talktome-crm` — CRM modular + **editor visual de workflows** (multi-tenant).
+- `workflows-editor` — Editor (React Flow) com nodes, validações e persistência.
+- `retention-ai` — Agente de retenção/negociação (prompts, regras, WhatsApp).
+- `integra-notas` — NFSe/NFCom (ABRASF 2.01), SOAP, **assinatura digital**, exemplos XML.
+- `news-portal` — Portal TS com pipelines de conteúdo e deploy automatizado.
+- `ops-scripts` — utilitários (migrations, jobs, tasks Celery, healthchecks).
 
-### 📬 Contato
+> Cada repo tem: README claro (runbook), **docker compose** de dev, exemplos, e CI básico.
+
+## 🛠️ Ferramentas do dia a dia
+`poetry` • `ruff`/`black` • `pytest` • `pre-commit` • `pnpm` • `eslint`/`biome` • `turbo` • `taskfile` • `httpie` • `mkcert`
+
+## 📫 Contato
 - Site: https://talktome.com.br  
-- LinkedIn: *seu_link_aqui*  
-- E-mail: rafaelexplorernetbsb@gmail.com
+- E-mail: rafaelexplorernetbsb@gmail.com  
+- LinkedIn: *seu_link_aqui*
